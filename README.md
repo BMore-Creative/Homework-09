@@ -34,7 +34,9 @@ npm i
 
 ---
 
-1. Run 'index.js' 2. Answer Inquirer questions to fill out fields of the README 3. Check created README for errors and formatting adjustments
+1. Run 'index.js' 
+2. Answer Inquirer questions to fill out fields of the README 
+3. Check created README for errors and formatting adjustments
 
 ## License
 
