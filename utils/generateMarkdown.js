@@ -91,9 +91,9 @@ ${data.test}
 
 **Project Creator:** [${data.github}](https://github.com/${data.github})
 
-Feel free to contact me at ${
+*Feel free to contact me at ${
     data.email
-  } for any questions, comments, or suggestions.
+  } for any questions, comments, or suggestions.*
 `;
 }
 
