@@ -20,11 +20,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "None") {
-    return `## License
-
-    ---
-
-    This project is licensed under the ${license} license`;
+    return `This project is licensed under the ${license} license`;
   }
   return "";
 }
@@ -67,6 +63,10 @@ ${data.installation}
 ---
 
 ${data.usage}
+
+##License
+
+---
 
 ${renderLicenseSection(data.license)}
 
