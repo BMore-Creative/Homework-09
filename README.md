@@ -38,9 +38,9 @@ npm i
 
 ## License
 
-    ---
+---
 
-    This project is licensed under the MIT license
+This project is licensed under the MIT license
 
 ## Contributing
 
@@ -54,13 +54,13 @@ N/A
 
 Run the following command to init tests:
 ```javascript
-Tests not present in project
+N/A
 ```
 
 ## Questions
 
 ---
 
-**Project Creator:** [Bmore-Creative](https://github.com/Bmore-Creative)
+**Project Creator:** [BMore-Creative](https://github.com/BMore-Creative)
 
-Feel free to contact me at bamore404@gmail.com for any questions, comments, or suggestions.
+*Feel free to contact me at bamore404@gmail.com for any questions, comments, or suggestions.*
