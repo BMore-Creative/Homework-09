@@ -34,7 +34,7 @@ npm i
 
 ---
 
-*[Video](https://drive.google.com/file/d/1B_uCr0VAI-BepYXkwIdUX0JRGNtcjDZY/view)*
+**[Video](https://drive.google.com/file/d/1B_uCr0VAI-BepYXkwIdUX0JRGNtcjDZY/view)**
 
 1. Run 'index.js' 
 2. Answer Inquirer questions to fill out fields of the README 
