@@ -33,6 +33,7 @@ function generateMarkdown(data) {
 ## Table of Contents
 
 - [About the Project](#about-the-project)
+  - [Built With](#built-with) 
 - [Installation](#installation)
 - [Usage](#usage)
 ${renderLicenseLink(data.license)}
@@ -43,6 +44,9 @@ ${renderLicenseLink(data.license)}
 ## About the Project
 
 >${data.description}
+
+### Built With
+${data.technologies}
 
 ## Installation
 

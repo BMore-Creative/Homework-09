@@ -27,6 +27,11 @@ const questions = [
     message: "Please write a short description of your project",
   },
   {
+    type: "input",
+    name: "technologies",
+    message: "What technologies were used to build the project?",
+  },
+  {
     type: "list",
     name: "license",
     message: "What kind of license should your project have?",
@@ -64,7 +69,7 @@ function writeToFile(fileName, data) {
 // Initializes CLI
 function init() {
   inquirer.prompt(questions).then((inquirerRes) => {
-    console.log("Creating README...");
+    console.log("Generating README...");
     writeToFile("newREADME.md", generateMarkdown({ ...inquirerRes }));
   });
 }
