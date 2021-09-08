@@ -32,8 +32,6 @@ function generateMarkdown(data) {
 
 ## Table of Contents
 
----
-
 - [About the Project](#about-the-project)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -44,13 +42,9 @@ ${renderLicenseLink(data.license)}
 
 ## About the Project
 
----
-
 >${data.description}
 
 ## Installation
-
----
 
 Run the following command to install necessary dependencies:
 
@@ -60,25 +54,17 @@ ${data.installation}
 
 ## Usage
 
----
-
 ${data.usage}
 
 ## License
-
----
 
 ${renderLicenseSection(data.license)}
 
 ## Contributing
 
----
-
 ${data.contributing}
 
 ## Tests
-
----
 
 Run the following command to init tests:
 \`\`\`javascript
@@ -86,8 +72,6 @@ ${data.test}
 \`\`\`
 
 ## Questions
-
----
 
 **Project Creator:** [${data.github}](https://github.com/${data.github})
 
